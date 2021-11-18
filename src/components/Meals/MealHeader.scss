@@ -1,0 +1,26 @@
+.mealHeader {
+    max-height: 20rem;
+    position: relative;
+    padding: 1rem;
+    box-shadow: 0 1px 15px 10px rgba(0, 0, 0, 0.20);
+
+    .sub{
+        margin-left: 5rem;
+        margin-top: -1.5rem;
+    }
+  }
+
+
+  .fastD{
+    background-color: #f68b1e;
+    width: 9.2rem;
+    color: white;
+    text-align: center;
+    padding: auto;
+    border-radius: 5px;
+    .fastDimg{
+        height: 1.5rem;
+        position: relative;
+    }
+  }
+  
