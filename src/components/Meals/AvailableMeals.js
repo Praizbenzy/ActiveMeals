@@ -7,25 +7,25 @@ const DUMMY_MEALS = [
     id: 'm1',
     name: 'Club sandwich + coffee',
     description: 'breakfast meal',
-    price: 12.99,
+    price: 1200.00,
   },
   {
     id: 'm2',
     name: 'Jollof Spaghetti + Plantain + Beef',
     description: 'workman combo',
-    price: 26.5,
+    price: 2500.00,
   },
   {
     id: 'm3',
     name: 'Barbecue Burger',
     description: 'American, raw, meaty',
-    price: 10.99,
+    price: 1500.00,
   },
   {
     id: 'm4',
     name: 'Ofada rice + Ofada Sauce',
     description: 'Healthy...and green...',
-    price: 28.99,
+    price: 2800.00,
   },
 ];
 

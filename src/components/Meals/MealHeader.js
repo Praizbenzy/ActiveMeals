@@ -7,7 +7,7 @@ const MealHeader = () => {
     return (
         <section className='mealHeader'>
             <div className='sub'>
-                <h2> ChopNownow</h2>
+                <h2> ChopNowNow</h2>
                 <div>
                     <p> <img src={Fav}/>Min. order ₦1,200.00 Min. delivery fee ₦450.00</p>
                     <div className='fastD'>
