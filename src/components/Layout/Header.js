@@ -10,7 +10,7 @@ const Header = (props) => {
     return (
       <div>
         <header className='header'>
-          <h1>ActiveMeals</h1>
+          <h1>Active<span className='headerTitle'>Meals</span></h1>
           <LangButton/>
           <CartButton onClick={props.onShowCart} />
         </header>

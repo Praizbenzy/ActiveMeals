@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from 'react';
 
-import CartContext from '../../cartMethod';
-import classes from './CartButton.module.css'
-// import './CartButton.scss';
+import CartIcon from '../Cart/CartIcon';
+import CartContext from '../../store/cart-context';
+import classes from './CartButton.module.css';
 
 const HeaderCartButton = (props) => {
   const [btnIsHighlighted, setBtnIsHighlighted] = useState(false);
@@ -32,7 +32,10 @@ const HeaderCartButton = (props) => {
   }, [items]);
 
   return (
-    <button className={btnClasses}  onClick={props.onClick}>
+    <button className={btnClasses} onClick={props.onClick}>
+      <span className={classes.icon}>
+        <CartIcon />
+      </span>
       <span>Your Cart</span>
       <span className={classes.badge}>{numberOfCartItems}</span>
     </button>

@@ -13,3 +13,9 @@ select {
     right: 18rem;
     font-weight: bold;
   }
+
+  select:hover,
+  select:active {
+    background-color: #d17212;
+  }
+  
