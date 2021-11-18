@@ -9,10 +9,10 @@ const MealHeader = () => {
             <div className='sub'>
                 <h2> ChopNowNow</h2>
                 <div>
-                    <p> <img src={Fav}/>Min. order ₦1,200.00 Min. delivery fee ₦450.00</p>
-                    <div className='fastD'>
+                    <span> <img src={Fav} className='favIcon'/>  Min. order ₦1,200.00 Min. delivery fee ₦450.00</span>
+                    <p className='fastD'>
                         <img src={FastD} className='fastDimg'/> <span>Fast Delivery</span>
-                    </div>
+                    </p>
                 </div>
             </div>
         </section>
