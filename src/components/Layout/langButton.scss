@@ -1,0 +1,21 @@
+@import 'color.scss';
+
+select {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: $bgColor;
+    color: $mainColor;
+    padding: 0.88rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 18rem;
+    font-weight: bold;
+  }
+
+  select:hover,
+  select:active {
+    background-color: #d17212;
+  }
+  
